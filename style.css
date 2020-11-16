@@ -1,0 +1,236 @@
+/* CSS Reset */
+
+*,
+*::before,
+*::after{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+/*--------Searchbar1---------*/
+
+.searchBar{
+    max-width:469px;
+    width:100%;
+    height:45px;
+    border-radius: 45px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    align-items: center;
+    padding: 4px 16px;
+}
+
+.searchBar:hover {
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+.searchBar__input{
+    flex-grow: 1;
+    height:100%;
+    font-size: 15px;
+    color:#222;
+    margin:0px 10px;
+    outline: none;
+    border:none;
+}
+
+.searchBar__mic img{
+    width:13px;
+    margin-right: 3px;
+
+}
+
+.searchBar__search ion-icon{
+    font-size: 17px;
+    color:#919191;
+    --ionicon-stroke-width: 50px;
+    line-height: 0;
+  
+}
+
+.searchBar__search,.searchBar__mic{
+    line-height: 0;
+}
+
+
+
+/*--------Searchbar2---------*/
+
+.searchBar2{
+    max-width:47%;
+    width:100%;
+    height:42px;
+    display:flex;
+    align-items: center;
+    box-shadow: 0 0 1px .1px #000;
+    border-radius: 5px;
+}
+
+.searchBar2:active {
+    box-shadow: 0 0 1px 3px #ff970e;
+}
+
+.searchBar__dropdown{
+    width: 55px;
+    height:100%;
+    outline: none;
+    border:none;
+    background: #f3f3f3;
+    font-size: 13px;
+    padding-left: 8px;
+    border-radius: 5px 0px 0px 5px;
+    cursor:pointer;
+    transition: all 0.1s;
+}
+
+.searchBar__dropdown option {
+  background: #fff;
+  font-size: 15px;
+
+}
+
+.searchBar__dropdown:hover {
+  background: #cecece;
+}
+
+.searchBar__dropdown:active {
+    box-shadow: 0 0 1px 3px #ff970e;
+}
+  
+.searchBar__input2{
+    flex-grow: 1;
+    height:100%;
+    font-size: 15px;
+    padding: 0px 7px;
+    outline: none;
+    border: none;
+    background: #fff;
+    border-left: 1px solid #d8d0d0;
+}
+
+.searchBar__search2{
+    background: #febd69;
+    height: 100%;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    transition: all 0.1s;  
+}
+
+
+.searchBar__search2 ion-icon {
+    font-size: 25px;
+    color: #131921;
+    --ionicon-stroke-width: 50px;
+}
+
+.searchBar__search2:hover {
+    background: #f3a847;
+}
+
+.searchBar__search2__btn:active {
+    background: #f3a847;
+    box-shadow: 0 0 1px 3px #ff970e;
+}
+
+
+/*--------Searchbar3---------*/
+
+.searchBar3{
+    max-width:40%;
+    width:100%;
+    height:43px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #dfe1e5;
+}
+
+.searchBar__input3{
+    flex-grow: 1;
+    height:100%;
+    font-size: 15px;
+    padding: 0px 7px;
+    outline: none;
+    border: 1px solid #dfe1e5;
+} 
+
+.searchBar__input3:active{
+    box-shadow: inset 0px 0px 1px 2px rgba(6,69,173,0.5);
+}
+
+.searchBar__search3{
+    background: #f0f0f0;
+    height: 100%;
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    transition: all 0.1s;  
+}
+
+.searchBar__search3 ion-icon {
+    font-size: 20px;
+    color: #131921;
+
+}
+
+.searchBar__search3:hover {
+   background: rgb(230, 230, 230);
+}
+
+
+/*--------Searchbar4---------*/
+
+.searchBar4{
+    max-width:35%;
+    width:100%;
+    height:60px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #dfe1e5;
+    background-color: #fff;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+}
+
+.searchBar__input4{
+    flex-grow: 1;
+    height:100%;
+    border:none;
+    outline: none;
+    padding-left: 8px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.searchBar4 a{
+    display: flex;
+    align-items: center;
+}
+.searchBar__mic ion-icon,.searchBar__search4 ion-icon{
+    font-size: 25px;
+    color: #02809d;
+    padding:15px;
+}
+.searchBar__cam img{
+    height:25px;
+}
+
